@@ -1,0 +1,2622 @@
+@font-face {
+  font-family: "droid_serifbold";
+  src: url("../fonts/droidserif-bold-webfont.eot");
+  src: url("../fonts/droidserif-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidserif-bold-webfont.woff") format("woff"), url("../fonts/droidserif-bold-webfont.ttf") format("truetype"), url("../fonts/droidserif-bold-webfont.svg#droid_serifbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "superstar_m54regular";
+  src: url("../fonts/superstar_m54-webfont.eot");
+  src: url("../fonts/superstar_m54-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/superstar_m54-webfont.woff") format("woff"), url("../fonts/superstar_m54-webfont.ttf") format("truetype"), url("../fonts/superstar_m54-webfont.svg#superstar_m54regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "english_with_indian_rupeeRg";
+  src: url("../fonts/english_with_indian_rupee-webfont.eot");
+  src: url("../fonts/english_with_indian_rupee-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/english_with_indian_rupee-webfont.woff") format("woff"), url("../fonts/english_with_indian_rupee-webfont.ttf") format("truetype"), url("../fonts/english_with_indian_rupee-webfont.svg#english_with_indian_rupeeRg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sansregular";
+  src: url("../fonts/opensans-regular-webfont.eot");
+  src: url("../fonts/opensans-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-regular-webfont.woff") format("woff"), url("../fonts/opensans-regular-webfont.ttf") format("truetype"), url("../fonts/opensans-regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "open_sanssemibold";
+  src: url("../fonts/opensans-semibold-webfont.eot");
+  src: url("../fonts/opensans-semibold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/opensans-semibold-webfont.woff") format("woff"), url("../fonts/opensans-semibold-webfont.ttf") format("truetype"), url("../fonts/opensans-semibold-webfont.svg#open_sanssemibold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "droid_sansregular";
+  src: url("../fonts/droidsans-webfont.eot");
+  src: url("../fonts/droidsans-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans-webfont.woff") format("woff"), url("../fonts/droidsans-webfont.ttf") format("truetype"), url("../fonts/droidsans-webfont.svg#droid_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "droid_sansbold";
+  src: url("../fonts/droidsans-bold-webfont.eot");
+  src: url("../fonts/droidsans-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/droidsans-bold-webfont.woff") format("woff"), url("../fonts/droidsans-bold-webfont.ttf") format("truetype"), url("../fonts/droidsans-bold-webfont.svg#droid_sansbold") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 178, icons/*.png */
+.icons-sprite, a.facebook i, a.facebook i:hover, a.twitter i, a.twitter i:hover, a.google i, a.google i:hover, .dQue .dPlus a i, .dQue .accordianHide a i {
+  background: url('../images/icons-s7b2943c599.png') no-repeat;
+}
+
+/* line 61, ../sass/custom.sass */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 65, ../sass/custom.sass */
+body {
+  font-family: "droid_sansregular", arial, "sans serif";
+  font-size: 14px;
+  background: url("../images/bodybg.jpg") center top no-repeat;
+  color: white;
+}
+
+/* line 71, ../sass/custom.sass */
+h1, h2, h3, h4 {
+  font-weight: normal;
+  margin: 0;
+}
+
+/* line 75, ../sass/custom.sass */
+.btn:focus {
+  outline: none;
+}
+
+/* line 79, ../sass/custom.sass */
+a:focus {
+  outline: none;
+  text-decoration: none;
+}
+/* line 82, ../sass/custom.sass */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 85, ../sass/custom.sass */
+.fl {
+  float: left;
+}
+
+/* line 88, ../sass/custom.sass */
+.fr {
+  float: right;
+}
+
+/*-------------------------Header Section----------------------------- */
+/* line 93, ../sass/custom.sass */
+i {
+  display: inline-block;
+}
+
+/* line 98, ../sass/custom.sass */
+li {
+  list-style: none;
+}
+
+/* line 101, ../sass/custom.sass */
+header {
+  background: url("../images/headerbg.jpg") repeat-x;
+}
+
+/* line 104, ../sass/custom.sass */
+.headerWrap {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+/* line 108, ../sass/custom.sass */
+.logo {
+  background: url("../images/logo.png") no-repeat scroll 0px 10px;
+  display: inline-block;
+  float: left;
+  width: 328px;
+  height: 94px;
+  margin-left: 74px;
+}
+
+/* line 116, ../sass/custom.sass */
+.headerRight {
+  float: right;
+  width: 193px;
+  padding: 38px 0 2px;
+}
+/* line 120, ../sass/custom.sass */
+.headerRight li {
+  float: left;
+  margin-right: 22px;
+}
+
+/* line 125, ../sass/custom.sass */
+a.facebook i {
+  background-position: 0 -98px;
+  height: 42px;
+  width: 42px;
+}
+/* line 130, ../sass/custom.sass */
+a.facebook i:hover {
+  background-position: 0 -245px;
+}
+/* line 132, ../sass/custom.sass */
+a.twitter i {
+  background-position: 0 -196px;
+  height: 42px;
+  width: 42px;
+}
+/* line 136, ../sass/custom.sass */
+a.twitter i:hover {
+  background-position: 0 -147px;
+}
+/* line 138, ../sass/custom.sass */
+a.google i {
+  background-position: 0 0;
+  height: 42px;
+  width: 42px;
+}
+/* line 142, ../sass/custom.sass */
+a.google i:hover {
+  background-position: 0 -49px;
+}
+
+/* line 145, ../sass/custom.sass */
+.headerVideo {
+  width: 1040px;
+  height: 500px;
+}
+
+/* line 149, ../sass/custom.sass */
+.navbar {
+  background: url("../images/navigationbg.png") repeat;
+  height: 51px;
+  margin-bottom: 0;
+}
+/* line 153, ../sass/custom.sass */
+.navbar .nav {
+  float: none;
+  text-align: center;
+}
+/* line 156, ../sass/custom.sass */
+.navbar .nav li {
+  background: url("../images/seperator.png") no-repeat scroll 0px 17px;
+  padding: 0 14px;
+  display: inline-block;
+  float: none;
+  margin-left: -4px;
+}
+/* line 162, ../sass/custom.sass */
+.navbar .nav li:first-child {
+  background: none;
+}
+/* line 164, ../sass/custom.sass */
+.navbar .nav li a {
+  font-size: 17px;
+  color: #fefefe;
+  text-transform: uppercase;
+  text-shadow: none;
+  letter-spacing: 2px;
+  padding: 18px 15px 13px;
+}
+/* line 171, ../sass/custom.sass */
+.navbar .nav li a:hover {
+  background: #d83c0a;
+  color: white;
+}
+
+/* line 175, ../sass/custom.sass */
+.active {
+  background: #d83c0a;
+  color: white;
+}
+
+/*-------------------------Middle Section----------------------------- */
+/* line 181, ../sass/custom.sass */
+.middleTitle {
+  text-align: center;
+  font-size: 42px;
+  color: #fffefe;
+  text-transform: uppercase;
+  line-height: 48px;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+/* line 190, ../sass/custom.sass */
+.middleWrap {
+  width: 1040px;
+  margin: 0 auto;
+  padding: 27px 0 40px;
+}
+
+/* line 195, ../sass/custom.sass */
+.cycle-slide {
+  height: 530px;
+  width: 940px;
+  margin-left: -10px;
+}
+/* line 199, ../sass/custom.sass */
+.cycle-slide ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 202, ../sass/custom.sass */
+.cycle-slide li {
+  float: left;
+  height: 175px;
+  position: relative;
+  padding: 60px 30px 20px 30px;
+  width: 233px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+/* line 211, ../sass/custom.sass */
+.midHealth {
+  background: url("../images/sliderImg1.jpg") no-repeat;
+}
+
+/* line 214, ../sass/custom.sass */
+.midEdu {
+  background: url("../images/sliderImg2.jpg") no-repeat;
+}
+
+/* line 217, ../sass/custom.sass */
+.midMoney {
+  background: url("../images/sliderImg3.jpg") no-repeat;
+}
+
+/* line 220, ../sass/custom.sass */
+.midCrime {
+  background: url("../images/sliderImg4.jpg") no-repeat;
+}
+
+/* line 223, ../sass/custom.sass */
+.midPromises {
+  background: url("../images/sliderImg5.jpg") no-repeat;
+}
+
+/* line 226, ../sass/custom.sass */
+.midCrisis {
+  background: url("../images/sliderImg6.jpg") no-repeat;
+}
+
+/* line 229, ../sass/custom.sass */
+.topRibbon {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+}
+/* line 233, ../sass/custom.sass */
+.topRibbon i {
+  background-position: -3px -236px;
+  width: 16px;
+  height: 23px;
+}
+
+/* line 238, ../sass/custom.sass */
+i.blackRibbon {
+  background-position: -25px -236px;
+}
+
+/* line 241, ../sass/custom.sass */
+.findOutbtn {
+  font-size: 11px;
+  color: white;
+  background: black;
+  padding: 2px 15px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-transform: capitalize;
+  font-family: "droid_serifbold", arial, "sans serif";
+}
+/* line 251, ../sass/custom.sass */
+.findOutbtn:hover {
+  text-decoration: none;
+  background: #333333;
+  color: white;
+}
+
+/* line 256, ../sass/custom.sass */
+.cycle-slide h3 {
+  font-size: 21px;
+  color: #010000;
+  font-family: "superstar_m54regular", arial, "sans serif";
+  margin-bottom: 30px;
+}
+
+/* line 262, ../sass/custom.sass */
+.midEdu h3, .midCrime h3, .midCrisis h3 {
+  color: white;
+}
+
+/* line 265, ../sass/custom.sass */
+.sliderRow li p {
+  font-size: 19px;
+  color: white;
+  line-height: 23px;
+  height: 90px;
+  overflow: hidden;
+  font-family: "english_with_indian_rupeeRg", arial, "sans serif";
+}
+
+/* line 273, ../sass/custom.sass */
+.midHealth p i, .midMoney p i, .midPromises p i {
+  background-position: -55px -133px;
+  width: 10px;
+  height: 14px;
+}
+
+/* line 279, ../sass/custom.sass */
+.sliderRow .midHealth p, .sliderRow .midMoney p, .sliderRow .midPromises p {
+  color: black;
+}
+
+/* line 282, ../sass/custom.sass */
+.midEdu p i {
+  background-position: -71px -133px;
+  width: 10px;
+  height: 14px;
+}
+
+/* line 287, ../sass/custom.sass */
+.stepUpActWrap {
+  background: url("../images/transparent.png") repeat;
+  width: 100%;
+  padding: 28px 0 50px;
+}
+
+/* line 292, ../sass/custom.sass */
+.stepUpLeft {
+  background: url("../images/stepUp.png") no-repeat;
+  text-align: center;
+  height: 290px;
+  position: relative;
+}
+
+/* line 298, ../sass/custom.sass */
+.stepUpRight {
+  background: url("../images/stepUp2.png") no-repeat;
+  position: relative;
+  text-align: center;
+  height: 290px;
+}
+/* line 303, ../sass/custom.sass */
+.stepUpRight img {
+  padding-top: 15px;
+}
+
+/* line 306, ../sass/custom.sass */
+.stepUpLeft .stepMidContent {
+  font-size: 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 43px;
+  text-shadow: 0 0 41px black;
+  letter-spacing: 2px;
+  padding-top: 75px;
+}
+/* line 314, ../sass/custom.sass */
+.stepUpLeft .stepMidContent span {
+  font-size: 43px;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 319, ../sass/custom.sass */
+.stepUpRight span {
+  display: block;
+  font-size: 21px;
+  text-transform: uppercase;
+  text-shadow: 0 0 41px black;
+  letter-spacing: 1px;
+  line-height: 25px;
+  margin-top: 15px;
+}
+
+/* line 328, ../sass/custom.sass */
+.joinusbtn {
+  position: absolute;
+  bottom: 0;
+  left: 120px;
+}
+/* line 332, ../sass/custom.sass */
+.joinusbtn a {
+  width: 218px;
+  background: url("../images/stepUpBtnBg.png") no-repeat;
+  height: 12px;
+  padding: 15px 0;
+  color: #ff4e00;
+  font-size: 25px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+/* line 342, ../sass/custom.sass */
+.joinusbtn a:hover {
+  text-decoration: none;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;
+}
+
+/*-------------------------Footer Section----------------------------- */
+/* line 352, ../sass/custom.sass */
+footer {
+  background: url("../images/transparent.png") repeat;
+  padding: 15px 0;
+  text-align: center;
+  width: 100%;
+}
+
+/* line 358, ../sass/custom.sass */
+.copyrights {
+  font-size: 18px;
+  color: #fffefe;
+  text-transform: capitalize;
+}
+
+/* line 363, ../sass/custom.sass */
+.stayUpdtWrap {
+  padding: 60px 0 35px;
+}
+/* line 365, ../sass/custom.sass */
+.stayUpdtWrap h2.middleStayTitle {
+  margin-bottom: 50px;
+}
+
+/* line 368, ../sass/custom.sass */
+.middleStayTitle {
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+}
+
+/* line 375, ../sass/custom.sass */
+.updatesTitle {
+  text-transform: uppercase;
+  color: #fefcfc;
+  font-size: 20px;
+  letter-spacing: 2px;
+  padding: 0 0 16px 18px;
+}
+
+/* line 382, ../sass/custom.sass */
+.updatesStory {
+  background: #f6f6f6;
+  padding: 29px 35px;
+  height: 194px;
+  color: #333333;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+/* line 389, ../sass/custom.sass */
+.updatesStory p {
+  line-height: 23px;
+  height: 115px;
+  overflow: hidden;
+}
+/* line 393, ../sass/custom.sass */
+.updatesStory span {
+  color: #436004;
+  display: block;
+}
+/* line 396, ../sass/custom.sass */
+.updatesStory a.followUs {
+  color: black;
+  text-transform: capitalize;
+  margin-top: 10px;
+  display: inline-block;
+}
+/* line 401, ../sass/custom.sass */
+.updatesStory a.followUs:hover {
+  text-decoration: underline;
+}
+
+/* line 404, ../sass/custom.sass */
+.hrs {
+  text-decoration: underline;
+}
+
+/*----------------------Home Slider---------------------------- */
+/* line 409, ../sass/custom.sass */
+.sliderControls {
+  position: relative;
+}
+/* line 411, ../sass/custom.sass */
+.sliderControls span {
+  width: 22px;
+  height: 40px;
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  cursor: pointer;
+}
+/* line 418, ../sass/custom.sass */
+.sliderControls .prev {
+  background: url("../images/icon_sprite.png") -1px -124px no-repeat;
+  left: 0px;
+  top: 240px;
+}
+
+/* line 423, ../sass/custom.sass */
+.sliderInner {
+  width: 100%;
+}
+
+/* line 426, ../sass/custom.sass */
+.sliderControls .next {
+  background: url("../images/icon_sprite.png") -27px -124px no-repeat;
+  right: 2px;
+  top: 240px;
+}
+
+/*----------------------Corruption Page--------------------------- */
+/* line 433, ../sass/custom.sass */
+#corruptnBody {
+  background: url("../images/cptnBodyBg.jpg") center top no-repeat;
+}
+
+/* line 436, ../sass/custom.sass */
+#corruptnHeader {
+  background: url("../images/cptnHeaderbg.jpg") repeat-x;
+}
+/* line 437, ../sass/custom.sass */
+#corruptnHeader .headerRight {
+  padding: 38px 0 7px;
+}
+/* line 440, ../sass/custom.sass */
+#corruptnHeader .navbar {
+  background: none;
+  height: 46px;
+}
+/* line 443, ../sass/custom.sass */
+#corruptnHeader .navbar .nav li {
+  background: url("../images/seperator.png") no-repeat scroll 0px 14px;
+}
+/* line 445, ../sass/custom.sass */
+#corruptnHeader .navbar .nav li:first-child {
+  background: none;
+}
+/* line 447, ../sass/custom.sass */
+#corruptnHeader .navbar .nav li a {
+  padding: 15px 15px 11px;
+}
+
+/* line 450, ../sass/custom.sass */
+.corruptnTopWrap {
+  background: url("../images/ctransparent.png") repeat;
+  height: 160px;
+}
+
+/* line 454, ../sass/custom.sass */
+.corruptnTop {
+  width: 1040px;
+  margin: 0 auto;
+}
+
+/* line 458, ../sass/custom.sass */
+.corruptnTopLeft {
+  float: left;
+  width: 740px;
+  margin-top: 22px;
+  margin-left: 100px;
+}
+
+/* line 464, ../sass/custom.sass */
+.alphabet {
+  text-align: center;
+  color: lightgrey;
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 37px;
+}
+/* line 470, ../sass/custom.sass */
+.alphabet span {
+  display: inline-block;
+}
+
+/* line 473, ../sass/custom.sass */
+.education {
+  margin-right: 12px;
+}
+
+/* line 476, ../sass/custom.sass */
+.food {
+  font-size: 36px;
+  margin-right: 12px;
+}
+
+/* line 480, ../sass/custom.sass */
+.shelter, .money {
+  font-size: 29px;
+  margin-right: 12px;
+}
+
+/* line 484, ../sass/custom.sass */
+.growth {
+  font-size: 24px;
+  margin-right: 25px;
+}
+
+/* line 488, ../sass/custom.sass */
+.justice, .infrastructure, .employment {
+  font-size: 27px;
+  margin-right: 12px;
+}
+
+/* line 492, ../sass/custom.sass */
+.health {
+  font-size: 32px;
+  margin-right: 35px;
+}
+
+/* line 496, ../sass/custom.sass */
+.employment {
+  margin-right: 35px;
+}
+
+/* line 499, ../sass/custom.sass */
+.money {
+  margin-right: 19px;
+}
+
+/* line 502, ../sass/custom.sass */
+.environment {
+  font-size: 31px;
+}
+
+/* line 505, ../sass/custom.sass */
+.c, .o, .r, .r2, .u, .p, .t, .i, .o2, .n {
+  background: #e01e1e;
+}
+
+/* line 508, ../sass/custom.sass */
+.c {
+  width: 20px;
+  height: 17px;
+}
+
+/* line 512, ../sass/custom.sass */
+.o {
+  width: 24px;
+  height: 24px;
+}
+
+/* line 516, ../sass/custom.sass */
+.r {
+  width: 21px;
+  height: 23px;
+}
+
+/* line 520, ../sass/custom.sass */
+.r2 {
+  width: 24px;
+  height: 17px;
+}
+
+/* line 524, ../sass/custom.sass */
+.u {
+  width: 18px;
+  height: 19px;
+}
+
+/* line 528, ../sass/custom.sass */
+.p {
+  width: 23px;
+  height: 19px;
+}
+
+/* line 532, ../sass/custom.sass */
+.t {
+  width: 21px;
+  height: 22px;
+}
+
+/* line 536, ../sass/custom.sass */
+.i {
+  width: 24px;
+  height: 20px;
+}
+
+/* line 540, ../sass/custom.sass */
+.o2 {
+  width: 22px;
+  height: 23px;
+}
+
+/* line 544, ../sass/custom.sass */
+.n {
+  width: 26px;
+  height: 21px;
+}
+
+/* line 548, ../sass/custom.sass */
+.corruptnTopRight {
+  float: right;
+  width: 120px;
+  height: 136px;
+  text-align: center;
+  background: url("../images/votersBg.png") no-repeat;
+  margin-top: 19px;
+  margin-right: 32px;
+}
+
+/* line 557, ../sass/custom.sass */
+.votersNo {
+  padding: 13px 0;
+}
+/* line 559, ../sass/custom.sass */
+.votersNo span {
+  color: #ff6600;
+  font-size: 27px;
+  text-transform: uppercase;
+  display: inline-block;
+  line-height: 15px;
+}
+/* line 565, ../sass/custom.sass */
+.votersNo .votersTxt {
+  font-size: 14px;
+}
+
+/* line 568, ../sass/custom.sass */
+.corruptnTopRight a {
+  font-size: 14px;
+  color: white;
+  text-transform: uppercase;
+  display: inline-block;
+}
+/* line 573, ../sass/custom.sass */
+.corruptnTopRight a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+/* line 577, ../sass/custom.sass */
+.corruptnVideoWrap {
+  width: 1040px;
+  margin: 0 auto;
+  background: url("../images/corruptionMidBg.png") no-repeat -68px top;
+  padding: 35px 0 50px;
+}
+/* line 582, ../sass/custom.sass */
+.corruptnVideoWrap h1 {
+  font-size: 57px;
+  color: #0f0f0f;
+}
+/* line 585, ../sass/custom.sass */
+.corruptnVideoWrap h1 span {
+  color: #e01e1e;
+  font-size: 63px;
+  font-weight: bold;
+  text-shadow: 0px 0px 12px black;
+}
+
+/* line 591, ../sass/custom.sass */
+.corruptnVideoInner {
+  margin-top: 27px;
+}
+
+/* line 594, ../sass/custom.sass */
+.corruptnVideoLeft {
+  float: left;
+}
+
+/* line 597, ../sass/custom.sass */
+.corruptnVideoRight {
+  float: right;
+  width: 360px;
+  font-size: 48px;
+  color: white;
+  line-height: 51px;
+  margin: 94px 30px 0 0;
+}
+/* line 604, ../sass/custom.sass */
+.corruptnVideoRight span {
+  font-size: 48px;
+  display: inline-block;
+}
+
+/* line 608, ../sass/custom.sass */
+.corruptnNation h2 {
+  text-transform: uppercase;
+  font-size: 31px;
+  color: black;
+  letter-spacing: 2px;
+}
+/* line 613, ../sass/custom.sass */
+.corruptnNation h2 span {
+  font-size: 34px;
+}
+
+/* line 616, ../sass/custom.sass */
+.paragraph {
+  font-size: 20px;
+  color: black;
+  line-height: 29px;
+  letter-spacing: 2px;
+  width: 790px;
+}
+/* line 622, ../sass/custom.sass */
+.paragraph span {
+  font-size: 31px;
+}
+
+/* line 625, ../sass/custom.sass */
+.corruptnNtnPopUp {
+  margin-bottom: 56px;
+}
+
+/* line 628, ../sass/custom.sass */
+.corruptnStepUp {
+  margin-bottom: 20px;
+}
+
+/* line 631, ../sass/custom.sass */
+.corruptnNtnPopUpTop {
+  background: url("../images/poopupTopbg.png") no-repeat;
+  height: 64px;
+}
+
+/* line 635, ../sass/custom.sass */
+.corruptnNtnPopUpMid {
+  background: url("../images/poopupMidbg.png") repeat-y;
+  min-height: 236px;
+  padding: 10px 64px 20px;
+}
+
+/* line 640, ../sass/custom.sass */
+.corruptnNtnPopUpBtm {
+  background: url("../images/poopupBottombg.png") no-repeat;
+  height: 11px;
+}
+
+/* line 645, ../sass/custom.sass */
+.corruptnNtnPopUpMid h3 {
+  color: #010101;
+  font-size: 33px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 50px;
+}
+/* line 651, ../sass/custom.sass */
+.corruptnNtnPopUpMid ul {
+  margin: 0;
+}
+/* line 653, ../sass/custom.sass */
+.corruptnNtnPopUpMid ul li {
+  background: url("../images/disc.png") no-repeat 0px 10px;
+  color: black;
+  font-size: 18px;
+  padding: 5px 35px;
+}
+
+/* line 659, ../sass/custom.sass */
+.corruptnStepUpLeft {
+  font-size: 28px;
+  color: white;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+/* line 664, ../sass/custom.sass */
+.corruptnStepUpLeft span {
+  display: inline-block;
+}
+
+/* line 667, ../sass/custom.sass */
+.corruptnStepUpRight {
+  font-size: 67px;
+  color: black;
+  text-transform: uppercase;
+  width: 360px;
+  display: inline-block;
+  line-height: 60px;
+  letter-spacing: 2px;
+  margin: 33px 0 0 74px;
+}
+
+/* line 677, ../sass/custom.sass */
+.postFormWrap, .dPostFormWrap {
+  background: url("../images/postformbg.png") repeat;
+  border: 1px solid #ae4443;
+  padding: 22px 27px 14px;
+  margin-bottom: 70px;
+}
+
+/* line 683, ../sass/custom.sass */
+.postformLeft {
+  float: left;
+  width: 282px;
+}
+
+/* line 687, ../sass/custom.sass */
+.postformRight {
+  float: right;
+  width: 550px;
+}
+
+/* line 692, ../sass/custom.sass */
+.postformLeft input {
+  width: 267px;
+  height: 27px;
+}
+
+/* line 697, ../sass/custom.sass */
+.postformRight textarea {
+  width: 536px;
+  height: 90px;
+  resize: none;
+}
+/* line 701, ../sass/custom.sass */
+.postformRight .btn {
+  float: right;
+  border-radius: 22px;
+  background-image: linear-gradient(#535353, #282828);
+  box-shadow: 4px 6px 5px #3f1f0a;
+  border: 1px solid #252525;
+  color: white;
+  background-color: #282828;
+  background-repeat: repeat-x;
+  font-size: 18px;
+  text-shadow: none;
+  font-family: "droid_sansregular", arial, "sans serif";
+  padding: 0px 27px;
+  height: 29px;
+}
+/* line 715, ../sass/custom.sass */
+.postformRight .btn:hover {
+  background: black;
+}
+
+/* line 718, ../sass/custom.sass */
+.rrViewWrap {
+  background: url("../images/viewbg.png") repeat;
+  padding: 38px;
+  margin-bottom: 74px;
+}
+
+/* line 723, ../sass/custom.sass */
+.rrViewImg {
+  float: left;
+}
+
+/* line 726, ../sass/custom.sass */
+.rrViewDetails {
+  float: right;
+  background: white;
+  width: 680px;
+  border-radius: 4px;
+}
+/* line 731, ../sass/custom.sass */
+.rrViewDetails h4 {
+  font-size: 29px;
+  color: white;
+  background: #484848;
+  font-size: 29px;
+  letter-spacing: 2px;
+  padding: 13px 40px 8px;
+  text-transform: uppercase;
+  border-radius: 4px 4px 0 0;
+}
+/* line 740, ../sass/custom.sass */
+.rrViewDetails p {
+  font-size: 13px;
+  color: #222222;
+  padding: 26px 40px;
+}
+/* line 744, ../sass/custom.sass */
+.rrViewDetails p a {
+  color: #bc1d1d;
+  text-decoration: underline;
+  font-style: italic;
+  font-size: 12px;
+}
+/* line 749, ../sass/custom.sass */
+.rrViewDetails p a:hover {
+  color: black;
+}
+
+/* line 752, ../sass/custom.sass */
+.corruptnStUpDtdWrap {
+  background: url("../images/ctransparent.png") repeat;
+}
+
+/* line 755, ../sass/custom.sass */
+.corruptnSliderWrap {
+  margin-bottom: 90px;
+}
+
+/* line 758, ../sass/custom.sass */
+.corruptnSliderLeft {
+  float: left;
+}
+
+/* line 761, ../sass/custom.sass */
+.corruptnSliderRight {
+  float: right;
+  width: 400px;
+}
+/* line 764, ../sass/custom.sass */
+.corruptnSliderRight ul {
+  margin: 0;
+}
+/* line 766, ../sass/custom.sass */
+.corruptnSliderRight ul li {
+  width: 400px;
+  height: 252px;
+  margin-bottom: 20px;
+}
+
+/* line 771, ../sass/custom.sass */
+.corruptnSliderRt1, .corruptnSliderRt2, .corruptnSliderRt3 {
+  position: relative;
+  text-align: center;
+}
+
+/* line 775, ../sass/custom.sass */
+.corruptnSliderRt1 {
+  background: url("../images/c_stepUp.PNG") no-repeat;
+}
+
+/* line 778, ../sass/custom.sass */
+.corruptnSliderRt2 {
+  background: url("../images/c_stepUp2.PNG") no-repeat;
+}
+
+/* line 781, ../sass/custom.sass */
+.corruptnSliderRt1 .stepMidContent {
+  font-size: 26px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 38px;
+  text-shadow: 0 0 41px black;
+  letter-spacing: 2px;
+  padding-top: 75px;
+}
+/* line 789, ../sass/custom.sass */
+.corruptnSliderRt1 .stepMidContent span {
+  font-size: 38px;
+  font-weight: bold;
+  display: block;
+}
+
+/* line 794, ../sass/custom.sass */
+.corruptnSliderRight .joinusbtn {
+  left: 95px;
+}
+/* line 796, ../sass/custom.sass */
+.corruptnSliderRight .joinusbtn a {
+  text-align: center;
+}
+
+/* line 799, ../sass/custom.sass */
+.corruptnSliderRt2 span {
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-shadow: 0 0 41px black;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* line 807, ../sass/custom.sass */
+.corruptnSliderRt3 .stepMidContent {
+  text-align: left;
+  text-transform: none;
+  font-size: 36px;
+  margin-left: 50px;
+  letter-spacing: 0;
+  line-height: 35px;
+}
+/* line 814, ../sass/custom.sass */
+.corruptnSliderRt3 .stepMidContent span {
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+/* line 818, ../sass/custom.sass */
+.corruptnSliderLeft ul {
+  margin: 0;
+}
+
+/* line 821, ../sass/custom.sass */
+.postComments img {
+  float: left;
+}
+
+/* line 824, ../sass/custom.sass */
+.postDetails {
+  float: right;
+  width: 378px;
+}
+
+/* line 828, ../sass/custom.sass */
+.posterName {
+  font-family: open_sanssemibold, arial, sans-serif;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+/* line 835, ../sass/custom.sass */
+.comments {
+  width: 300px;
+  /*height: 125px;
+   *overflow: hidden; */
+}
+/* line 839, ../sass/custom.sass */
+.comments p {
+  font-family: open_sansregular, arial, sans-serif;
+  font-size: 10px;
+  color: black;
+  line-height: 16px;
+}
+
+/* line 845, ../sass/custom.sass */
+.corruptnSliderLeft .postPublicIcons {
+  float: right;
+  margin-top: -7px;
+}
+/* line 848, ../sass/custom.sass */
+.corruptnSliderLeft .postPublicIcons li {
+  float: left;
+  background: url("../images/publiciconsep.jpg") no-repeat 0px 3px;
+  width: 24px;
+  padding: 2px;
+  border: 0 none;
+  margin: 0;
+}
+/* line 855, ../sass/custom.sass */
+.corruptnSliderLeft .postPublicIcons li:first-child {
+  background: none;
+  padding-right: 4px;
+}
+/* line 858, ../sass/custom.sass */
+.corruptnSliderLeft .postPublicIcons li a {
+  display: inline-block;
+}
+
+/* line 862, ../sass/custom.sass */
+.postPublicIcons li i.postIcon1 {
+  background-position: -22px -201px;
+  width: 24px;
+  height: 17px;
+}
+/* line 866, ../sass/custom.sass */
+.postPublicIcons li i.postIcon2 {
+  background-position: 3px -199px;
+  width: 24px;
+  height: 17px;
+}
+/* line 870, ../sass/custom.sass */
+.postPublicIcons li i.postIcon3 {
+  background-position: 6px -217px;
+  width: 24px;
+  height: 17px;
+}
+
+/*----------------------Corruption Slider---------------------------- */
+/* line 877, ../sass/custom.sass */
+.sliderControls1 {
+  position: relative;
+}
+/* line 879, ../sass/custom.sass */
+.sliderControls1 span {
+  width: 31px;
+  height: 16px;
+  display: block;
+  position: absolute;
+  z-index: 1000;
+  cursor: pointer;
+}
+/* line 886, ../sass/custom.sass */
+.sliderControls1 .prev {
+  background: url("../images/icon_sprite.png") -1px -261px no-repeat;
+  left: 239px;
+  top: -28px;
+}
+
+/* line 891, ../sass/custom.sass */
+.sliderInner {
+  width: 100%;
+}
+
+/* line 895, ../sass/custom.sass */
+.sliderControls1 .next {
+  background: url("../images/icon_sprite.png") -1px -279px no-repeat;
+  left: 239px;
+  bottom: -846px;
+}
+/* line 899, ../sass/custom.sass */
+.sliderControls1 .prev:hover {
+  background-position: -30px -261px;
+}
+/* line 901, ../sass/custom.sass */
+.sliderControls1 .next:hover {
+  background-position: -30px -279px;
+}
+
+/* line 904, ../sass/custom.sass */
+.cslider {
+  float: left;
+  width: 500px;
+  height: 816px;
+}
+
+/* line 910, ../sass/custom.sass */
+.corruptnSliderWrap .cycle-slide {
+  height: 820px;
+  margin-left: -10px;
+  width: 510px;
+}
+/* line 914, ../sass/custom.sass */
+.corruptnSliderWrap .cycle-slideshow {
+  height: 816px;
+}
+
+/* line 917, ../sass/custom.sass */
+.clickvote {
+  position: relative;
+}
+
+/* line 920, ../sass/custom.sass */
+.signinvote {
+  background: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: black;
+  position: absolute;
+  bottom: -4px;
+  left: -101px;
+}
+
+/*-------------------Scroller-------------------------------- */
+/* line 931, ../sass/custom.sass */
+.content_7, .rrViewPost, .frontPagePost {
+  position: relative;
+  width: 100%;
+  height: 110px;
+  overflow: auto;
+  box-sizing: border-box;
+}
+
+/* line 938, ../sass/custom.sass */
+.content {
+  width: 260px;
+  height: 800px;
+  overflow: auto;
+}
+
+/* line 943, ../sass/custom.sass */
+.mCSB_container {
+  width: auto;
+  margin-right: 20px;
+  overflow: hidden;
+  position: relative;
+  top: 0px;
+}
+/* line 949, ../sass/custom.sass */
+.mCSB_container.mCS_no_scrollbar {
+  margin-right: 0;
+}
+
+/* line 952, ../sass/custom.sass */
+.mCustomScrollBox {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+/* line 958, ../sass/custom.sass */
+.mCS_disabled > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar, .mCS_destroyed > .mCustomScrollBox > .mCSB_container.mCS_no_scrollbar {
+  margin-right: 30px;
+}
+
+/* line 961, ../sass/custom.sass */
+.mCustomScrollBox > .mCSB_scrollTools {
+  width: 16px;
+  height: 100%;
+  top: 0;
+  right: 15px;
+}
+
+/* line 967, ../sass/custom.sass */
+.mCSB_scrollTools {
+  /* right: 255px; */
+}
+/* line 968, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_draggerContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: auto;
+}
+/* line 975, ../sass/custom.sass */
+.mCSB_scrollTools a + .mCSB_draggerContainer {
+  margin: 20px 0;
+}
+/* line 977, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_draggerRail {
+  width: 2px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+/* line 984, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_dragger {
+  cursor: pointer;
+  width: 100%;
+  height: 30px;
+}
+/* line 988, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  width: 4px;
+  height: 100%;
+  margin: 0 auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+/* line 996, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonUp {
+  display: block;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
+}
+/* line 1004, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonDown {
+  display: block;
+  position: relative;
+  height: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+  cursor: pointer;
+  /* right: 255px; */
+  top: 100%;
+  margin-top: -42px;
+}
+
+/* line 1015, ../sass/custom.sass */
+.mCustomScrollBox {
+  /* old ie */
+}
+/* line 1016, ../sass/custom.sass */
+.mCustomScrollBox > .mCSB_scrollTools {
+  opacity: 0.75;
+  filter: "alpha(opacity=75)";
+  -ms-filter: "alpha(opacity=75)";
+}
+/* line 1021, ../sass/custom.sass */
+.mCustomScrollBox:hover > .mCSB_scrollTools {
+  opacity: 1;
+  filter: "alpha(opacity=100)";
+  -ms-filter: "alpha(opacity=100)";
+}
+
+/* old ie */
+/* line 1027, ../sass/custom.sass */
+.mCSB_scrollTools {
+  /* old ie */
+  /* old ie */
+  /*sprites locations are 0 0/-16px 0/-32px 0/-48px 0 (light) and -80px 0/-96px 0/-112px 0/-128px 0 (dark) */
+  /*sprites locations are 0 -20px/-16px -20px/-32px -20px/-48px -20px (light) and -80px -20px/-96px -20px/-112px -20px/-128px -20px (dark) */
+  /*sprites locations are 0 -40px/-20px -40px/-40px -40px/-60px -40px (light) and -80px -40px/-100px -40px/-120px -40px/-140px -40px (dark) */
+  /*sprites locations are 0 -56px/-20px -56px/-40px -56px/-60px -56px (light) and -80px -56px/-100px -56px/-120px -56px/-140px -56px (dark) */
+  /* old ie */
+}
+/* line 1028, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_draggerRail {
+  background: black;
+  /* rgba fallback */
+  background: rgba(0, 0, 0, 0.4);
+  filter: "alpha(opacity=40)";
+  -ms-filter: "alpha(opacity=40)";
+}
+/* line 1035, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_dragger {
+  /* old ie */
+  /* old ie */
+}
+/* line 1036, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+  background: white;
+  /* rgba fallback */
+  background: rgba(255, 255, 255, 0.75);
+  filter: "alpha(opacity=75)";
+  -ms-filter: "alpha(opacity=75)";
+}
+/* line 1043, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar {
+  background: rgba(255, 255, 255, 0.85);
+  filter: "alpha(opacity=85)";
+  -ms-filter: "alpha(opacity=85)";
+}
+/* line 1048, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+  background: rgba(255, 255, 255, 0.9);
+  filter: "alpha(opacity=90)";
+  -ms-filter: "alpha(opacity=90)";
+}
+/* line 1053, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonUp, .mCSB_scrollTools .mCSB_buttonDown, .mCSB_scrollTools .mCSB_buttonLeft, .mCSB_scrollTools .mCSB_buttonRight {
+  background-image: url(../images/mCSB_buttons.png);
+  background-repeat: no-repeat;
+  opacity: 0.4;
+  filter: "alpha(opacity=40)";
+  -ms-filter: "alpha(opacity=40)";
+}
+/* line 1059, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonUp {
+  background-position: -32px 0px;
+}
+/* line 1063, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonDown {
+  background-position: -32px -20px;
+}
+/* line 1067, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonLeft {
+  background-position: 0 -40px;
+}
+/* line 1071, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonRight {
+  background-position: 0 -56px;
+}
+/* line 1075, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonUp:hover, .mCSB_scrollTools .mCSB_buttonDown:hover, .mCSB_scrollTools .mCSB_buttonLeft:hover, .mCSB_scrollTools .mCSB_buttonRight:hover {
+  opacity: 0.75;
+  filter: "alpha(opacity=75)";
+  -ms-filter: "alpha(opacity=75)";
+}
+/* line 1080, ../sass/custom.sass */
+.mCSB_scrollTools .mCSB_buttonUp:active, .mCSB_scrollTools .mCSB_buttonDown:active, .mCSB_scrollTools .mCSB_buttonLeft:active, .mCSB_scrollTools .mCSB_buttonRight:active {
+  opacity: 0.9;
+  filter: "alpha(opacity=90)";
+  -ms-filter: "alpha(opacity=90)";
+}
+
+/* old ie */
+/* line 1086, ../sass/custom.sass */
+.mCustomScrollBox {
+  -ms-touch-action: none;
+}
+
+/*MSPointer events - direct all pointer events to js */
+/*---------------------------I Demand-------------------------------- */
+/* line 1092, ../sass/custom.sass */
+#iDemandBody {
+  background: url("../images/iDemandBodyBg.jpg") no-repeat top center;
+}
+
+/* line 1095, ../sass/custom.sass */
+.iDmndFaqs {
+  margin: 10px 0;
+}
+
+/* line 1098, ../sass/custom.sass */
+.iDemandTop {
+  background: url("../images/dmndTopTransBg.png") no-repeat;
+  height: 21px;
+}
+
+/* line 1102, ../sass/custom.sass */
+.iDemandMid {
+  background: url("../images/dmndMidTransBg.png") repeat;
+  padding: 5px 40px 0px;
+}
+
+/* line 1106, ../sass/custom.sass */
+.iDemandBottom {
+  background: url("../images/dmndBottomTransBg.png") no-repeat;
+  height: 21px;
+}
+
+/* line 1110, ../sass/custom.sass */
+.dQue {
+  color: #555555;
+  font-size: 18px;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+/* line 1115, ../sass/custom.sass */
+.dQue span {
+  color: #ff6600;
+  font-family: "superstar_m54regular", Arial, sans-serif;
+  line-height: 28px;
+}
+
+/* line 1120, ../sass/custom.sass */
+.dmndBtmSentence span {
+  color: #ff6600;
+  font-family: "superstar_m54regular", Arial, sans-serif;
+  line-height: 28px;
+}
+
+/* line 1127, ../sass/custom.sass */
+.dQue .dPlus a {
+  cursor: pointer;
+}
+/* line 1129, ../sass/custom.sass */
+.dQue .dPlus a i {
+  background-position: 0 -533px;
+  width: 24px;
+  height: 24px;
+}
+/* line 1133, ../sass/custom.sass */
+.dQue .accordianHide a i {
+  background-position: 0 -451px;
+}
+
+/* line 1136, ../sass/custom.sass */
+.dAns {
+  padding: 5px 0 0;
+  margin: 22px 0 0;
+  border-top: 2px solid #d2d2d1;
+  display: none;
+}
+/* line 1141, ../sass/custom.sass */
+.dAns span {
+  font-size: 14px;
+  color: #ff6600;
+  line-height: 62px;
+  text-transform: uppercase;
+}
+/* line 1146, ../sass/custom.sass */
+.dAns p {
+  color: #323232;
+  font-size: 13px;
+  letter-spacing: 1px;
+  line-height: 23px;
+  font-family: "droid_sansregular", arial, "sans serif";
+}
+
+/* line 1153, ../sass/custom.sass */
+.dmndBtmSentence {
+  font-size: 14px;
+  color: #ff6600;
+  letter-spacing: 1px;
+}
+/* line 1157, ../sass/custom.sass */
+.dmndBtmSentence span {
+  line-height: 20px;
+}
+
+/* line 1160, ../sass/custom.sass */
+.publicShare {
+  float: right;
+  height: 28px;
+}
+/* line 1163, ../sass/custom.sass */
+.publicShare i {
+  background-position: -6px -304px;
+  width: 61px;
+  height: 28px;
+}
+/* line 1167, ../sass/custom.sass */
+.publicShare i:hover {
+  background-position: -6px -334px;
+}
+
+/* line 1170, ../sass/custom.sass */
+.midDemandCommentForm {
+  margin-top: 50px;
+}
+
+/* line 1174, ../sass/custom.sass */
+.dPostFormWrap textarea {
+  height: 90px;
+  resize: none;
+  width: 869px;
+}
+/* line 1178, ../sass/custom.sass */
+.dPostFormWrap .btn {
+  float: right;
+  border-radius: 22px;
+  background-image: linear-gradient(#535353, #282828);
+  box-shadow: 4px 6px 5px #3f1f0a;
+  border: 1px solid #252525;
+  color: white;
+  background-color: #282828;
+  background-repeat: repeat-x;
+  font-size: 18px;
+  text-shadow: none;
+  font-family: "droid_sansregular", arial, "sans serif";
+  padding: 0px 27px;
+  height: 29px;
+}
+
+/* line 1193, ../sass/custom.sass */
+.midDemandFormTitle {
+  font-size: 32px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 75px;
+}
+
+/*---------------------------RR View-------------------------------- */
+/* line 1202, ../sass/custom.sass */
+#rrViewBody {
+  background: url("../images/rrViewBodyBg.jpg") no-repeat top center;
+}
+
+/* line 1205, ../sass/custom.sass */
+#rrViewFooter {
+  background: #181818;
+}
+
+/* line 1208, ../sass/custom.sass */
+.rrViewMiddleContainer {
+  margin-top: 45px;
+  margin-bottom: 90px;
+}
+
+/* line 1212, ../sass/custom.sass */
+.rrViewPost {
+  width: 104% !important;
+  height: 600px;
+  overflow: auto;
+}
+
+/* line 1217, ../sass/custom.sass */
+.rrViewTopLeft {
+  background: url("../images/rrViewLeft.png") no-repeat;
+  height: 138px;
+  font-size: 52px;
+  color: #606161;
+  text-transform: uppercase;
+  padding: 60px 0 0 225px;
+  letter-spacing: 2px;
+}
+/* line 1225, ../sass/custom.sass */
+.rrViewTopLeft span {
+  color: #ff6600;
+}
+
+/* line 1228, ../sass/custom.sass */
+.rrViewPostDate {
+  text-align: center;
+  background: url("../images/rrMidSeperator.png") no-repeat -2px 8px;
+  margin-bottom: 12px;
+  letter-spacing: 1px;
+}
+/* line 1233, ../sass/custom.sass */
+.rrViewPostDate span {
+  background: url("../images/rrPostBg2.png") repeat;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  padding: 1px 28px;
+}
+
+/* line 1240, ../sass/custom.sass */
+.rrViewPostContent, .rrViewPostContent2 {
+  background: url("../images/rrPostBg1.png") repeat;
+  padding: 25px 30px 35px 40px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-bottom: 25px;
+}
+
+/* line 1248, ../sass/custom.sass */
+.rrViewPostContent h3, .rrViewPostContent2 h3 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+/* line 1254, ../sass/custom.sass */
+.rrViewPostContent p, .rrViewPostContent2 p {
+  font-size: 12px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+/* line 1259, ../sass/custom.sass */
+a.readMore {
+  color: #4e280c;
+  font-size: 10px;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+/* line 1265, ../sass/custom.sass */
+.rrViewPostContent2 a.readMore {
+  color: #ff9600;
+}
+
+/* line 1268, ../sass/custom.sass */
+a.readMore:hover {
+  text-decoration: none;
+}
+
+/* line 1271, ../sass/custom.sass */
+.rrPublicShare {
+  float: right;
+  height: 28px;
+}
+/* line 1274, ../sass/custom.sass */
+.rrPublicShare i {
+  background-position: -6px -304px;
+  height: 28px;
+  width: 61px;
+}
+/* line 1278, ../sass/custom.sass */
+.rrPublicShare i:hover {
+  background-position: -6px -334px;
+}
+
+/* line 1281, ../sass/custom.sass */
+.rrViewPostContent2 {
+  background: url("../images/rrPostBg2.png") repeat;
+}
+/* line 1282, ../sass/custom.sass */
+.rrViewPostContent2 .rrPublicShare i {
+  background-position: -6px -334px;
+}
+/* line 1284, ../sass/custom.sass */
+.rrViewPostContent2 .rrPublicShare i:hover {
+  background-position: -6px -304px;
+}
+
+/* line 1288, ../sass/custom.sass */
+.rrViewRtSidebar, .frontPageSidebar {
+  background: url("../images/rrViewRtSidebarBg.png") repeat;
+  padding: 49px 18px 10px 30px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  box-shadow: 0 4px 8px #4a4a4a;
+}
+
+/* line 1296, ../sass/custom.sass */
+.rrRightPost, .rrRightCheckout {
+  padding: 0 0 20px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #c3c3c3;
+}
+
+/* line 1301, ../sass/custom.sass */
+.rrRightPost h4, .rrRightCheckout h4 {
+  font-size: 21px;
+  color: #f97319;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+}
+
+/* line 1308, ../sass/custom.sass */
+.rrRightPost ul {
+  margin: 0;
+}
+/* line 1310, ../sass/custom.sass */
+.rrRightPost ul li {
+  background: url("../images/postListStyle.png") no-repeat 0 6px;
+  padding: 0 13px;
+  margin: 2px 10px;
+}
+/* line 1314, ../sass/custom.sass */
+.rrRightPost ul li a {
+  color: #4b4b4b;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+/* line 1319, ../sass/custom.sass */
+.rrRightPost ul li a:hover {
+  color: #111111;
+  text-decoration: none;
+}
+
+/* line 1324, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightPost .rrPostAccordian {
+  background: url("../images/postSelectedListStyle.png") no-repeat 0 5px;
+}
+/* line 1326, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightIssues li {
+  background: url("../images/issuesListStyle.png") no-repeat 0 5px;
+  padding: 0 0 0 26px;
+  margin: 18px 10px;
+}
+/* line 1330, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightIssues li:last-child {
+  margin: 18px 10px 2px;
+}
+/* line 1332, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightIssues li a {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+/* line 1335, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightArchieve {
+  border-top: 1px solid #bcbcbc;
+  border-bottom: 1px solid #bcbcbc;
+  padding: 5px 0;
+  margin: 10px 0;
+  display: none;
+}
+
+/* line 1342, ../sass/custom.sass */
+.rrRightPost .rrRightYear {
+  background: url("../images/issuesListStyle.png") no-repeat 0 5px;
+  padding: 0 13px 0 26px;
+  margin: 10px;
+}
+
+/* line 1347, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightPost .rrAccordian {
+  background: url("../images/selectedListStyle.png") no-repeat 0 5px;
+}
+
+/* line 1351, ../sass/custom.sass */
+.rrRightPost .rrAccordian a, .rrRightPost .rrPostAccordian a {
+  color: #608c15;
+}
+/* line 1353, ../sass/custom.sass */
+.rrRightPost .rrAccordian a:hover, .rrRightPost .rrPostAccordian a:hover {
+  color: #608c15;
+}
+
+/* line 1356, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightArchieve li a {
+  color: #4b4b4b;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+/* line 1361, ../sass/custom.sass */
+.rrRightSubArchieve, .rrRightSubIssues, .rrRightRecentSubPost {
+  display: none;
+}
+
+/* line 1365, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightSubIssues li {
+  border-bottom: 1px solid #bcbcbc;
+  margin-bottom: -12px;
+  padding: 0 5px 5px 15px;
+}
+/* line 1369, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightRecentSubPost {
+  margin: 10px 0;
+}
+/* line 1371, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightSubIssues li a {
+  color: #4b4b4b;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-style: italic;
+}
+/* line 1377, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightRecentSubPost li {
+  border-bottom: 1px solid #bcbcbc;
+  padding: 0 5px 5px 15px;
+}
+/* line 1378, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightRecentSubPost li a {
+  color: #4b4b4b;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+  font-style: italic;
+}
+/* line 1386, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightSubArchieve li {
+  background: url("../images/icon_sprite.png") no-repeat -5px -392px;
+  padding: 7px 0px 7px 10px;
+  line-height: 16px;
+  margin: 0;
+  border-bottom: 1px solid #bcbcbc;
+}
+/* line 1392, ../sass/custom.sass */
+.rrViewRtSidebar .rrRightSubArchieve li a {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* line 1396, ../sass/custom.sass */
+.rrRightCheckout {
+  border-bottom: 0 none;
+  margin-bottom: 15px;
+}
+
+/* line 1400, ../sass/custom.sass */
+.checkOut a {
+  text-transform: uppercase;
+  color: #92b067;
+  letter-spacing: 2px;
+}
+
+/* line 1405, ../sass/custom.sass */
+.bribery a {
+  display: block;
+  font-size: 40px;
+  line-height: 37px;
+}
+
+/* line 1410, ../sass/custom.sass */
+.scam a {
+  font-size: 24px;
+}
+
+/* line 1413, ../sass/custom.sass */
+.pollution a {
+  font-size: 23px;
+  color: #9eb97d;
+}
+
+/* line 1417, ../sass/custom.sass */
+.desperation a {
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+/* line 1421, ../sass/custom.sass */
+.crisis a {
+  font-size: 19px;
+  letter-spacing: 0;
+  color: #aec595;
+}
+
+/* line 1426, ../sass/custom.sass */
+.child a, .marriage a {
+  font-size: 20px;
+  color: #6e6e6d;
+}
+
+/* line 1430, ../sass/custom.sass */
+.agriculture a {
+  font-size: 27px;
+}
+
+/* line 1433, ../sass/custom.sass */
+.domestic a {
+  font-size: 24px;
+  letter-spacing: 0;
+}
+
+/* line 1437, ../sass/custom.sass */
+.infant a {
+  font-size: 17px;
+}
+
+/* line 1440, ../sass/custom.sass */
+.suicide a {
+  font-size: 19px;
+}
+
+/* line 1443, ../sass/custom.sass */
+.jobUntaughtLeft {
+  width: 138px;
+  float: left;
+}
+
+/* line 1447, ../sass/custom.sass */
+.jobUntaughtRight {
+  float: left;
+  margin: 12px 0 0 -5px;
+}
+
+/* line 1451, ../sass/custom.sass */
+.jobless a {
+  font-size: 26px;
+  letter-spacing: 5px;
+  color: #aec595;
+}
+
+/* line 1456, ../sass/custom.sass */
+.untaught a {
+  font-size: 22px;
+}
+
+/* line 1459, ../sass/custom.sass */
+.rape a {
+  font-size: 38px;
+}
+
+/* line 1462, ../sass/custom.sass */
+.underemployment a {
+  font-size: 20px;
+}
+
+/*-------------------------Front Page---------------------------- */
+/* line 1467, ../sass/custom.sass */
+#frontPageBody {
+  background: url("../images/frontPageBodyBg.jpg") no-repeat center top;
+}
+
+/* line 1470, ../sass/custom.sass */
+.frontPageBanner {
+  background: url("../images/frontPageBanner.png") no-repeat;
+  height: 172px;
+  margin-top: 43px;
+}
+
+/* line 1475, ../sass/custom.sass */
+.frontPagePost {
+  width: 104% !important;
+  height: 940px;
+  overflow: auto;
+}
+
+/* line 1480, ../sass/custom.sass */
+.frontPageMiddleContainer {
+  margin-top: 21px;
+  margin-bottom: 21px;
+}
+
+/* line 1484, ../sass/custom.sass */
+#frontPageBody .frontPageSidebar {
+  background: url("../images/frontPageSidebarBg.png") repeat;
+}
+
+/* line 1488, ../sass/custom.sass */
+.frontPageSidebar h4, .frontPageSidebar .rrRightPost ul li a, .frontPageSidebar .checkOut a {
+  color: white;
+}
+/* line 1490, ../sass/custom.sass */
+.frontPageSidebar .rrRightRecentPost .rrRightRecentSubPost li a, .frontPageSidebar .rrRightIssues .rrRightSubIssues li a, .frontPageSidebar .rrRightYear .rrRightArchieve li a {
+  color: white;
+}
+/* line 1492, ../sass/custom.sass */
+.frontPageSidebar .rrRightRecentPost .rrRightRecentSubPost li a:hover, .frontPageSidebar .rrRightIssues .rrRightSubIssues li a:hover, .frontPageSidebar .rrRightYear .rrRightArchieve li a:hover {
+  color: white;
+}
+/* line 1494, ../sass/custom.sass */
+.frontPageSidebar .rrRightIssues li {
+  background: url("../images/fpIssuesListStyle.png") no-repeat 0px 5px;
+}
+/* line 1496, ../sass/custom.sass */
+.frontPageSidebar .rrRightIssues li a:hover {
+  color: white;
+}
+/* line 1498, ../sass/custom.sass */
+.frontPageSidebar .rrRightPost {
+  border-bottom: 1px solid #bb5e0b;
+}
+/* line 1499, ../sass/custom.sass */
+.frontPageSidebar .rrRightPost ul li a:hover {
+  color: white;
+}
+/* line 1501, ../sass/custom.sass */
+.frontPageSidebar .rrRightPost .rrAccordian a, .frontPageSidebar .rrRightPost .rrPostAccordian a {
+  color: white;
+}
+/* line 1503, ../sass/custom.sass */
+.frontPageSidebar .rrRightPost .rrAccordian a:hover, .frontPageSidebar .rrRightPost .rrPostAccordian a:hover {
+  color: white;
+}
+/* line 1506, ../sass/custom.sass */
+.frontPageSidebar .rrRightSubIssues li, .frontPageSidebar .rrRightRecentSubPost li {
+  border-bottom: 1px solid #bb5e0b;
+}
+/* line 1508, ../sass/custom.sass */
+.frontPageSidebar .rrRightArchieve {
+  border-bottom: 1px solid #bb5e0b;
+  border-top: 1px solid #bb5e0b;
+}
+/* line 1512, ../sass/custom.sass */
+.frontPageSidebar .rrRightPost .rrAccordian {
+  background: url("../images/fpSelectedListStyle.png") no-repeat scroll 0 5px;
+}
+/* line 1514, ../sass/custom.sass */
+.frontPageSidebar .rrRightPost ul li {
+  background: url("../images/fpPostListStyle.png") no-repeat scroll 0 6px;
+}
+/* line 1516, ../sass/custom.sass */
+.frontPageSidebar .rrRightPost .rrPostAccordian {
+  background: url("../images/fpPostSelectedListStyle.png") no-repeat scroll 0 7px;
+}
+
+/* line 1519, ../sass/custom.sass */
+.frontPagePostContent {
+  background: url("../images/frontPageLeftBg.png") repeat;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-bottom: 22px;
+  padding: 25px 30px 35px;
+}
+/* line 1526, ../sass/custom.sass */
+.frontPagePostContent p {
+  color: #2a2a2a;
+  font-size: 12px;
+  line-height: 17px;
+  text-align: justify;
+}
+
+/* line 1532, ../sass/custom.sass */
+.fpContentHeading {
+  font-size: 17px;
+  color: #ff4800;
+  letter-spacing: 1px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+/* line 1538, ../sass/custom.sass */
+.fpContentHeading span {
+  font-size: 13px;
+  display: block;
+}
+
+/* line 1542, ../sass/custom.sass */
+.frontPagePostTop {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #afafaf;
+}
+
+/* line 1547, ../sass/custom.sass */
+.frontPagePostTopleft {
+  float: left;
+  width: 108px;
+  background: url("../images/fpSep.png") no-repeat right 21px;
+  padding: 22px 0 15px;
+}
+
+/* line 1553, ../sass/custom.sass */
+.frontPagePostTopRight {
+  color: #ff4e00;
+  float: right;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 425px;
+  margin-top: 35px;
+}
+
+/* line 1564, ../sass/custom.sass */
+.frontPagePostTop a {
+  color: #ff4e00;
+  font-size: 22px;
+  letter-spacing: 1px;
+  line-height: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 425px;
+  margin-top: 35px;
+}
+/* line 1573, ../sass/custom.sass */
+.frontPagePostTop a:hover {
+  text-decoration: underline;
+}
+
+/* line 1577, ../sass/custom.sass */
+.frontPagePostTopleft div {
+  color: #6a6d6d;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/* line 1581, ../sass/custom.sass */
+.frontPagePostTopleft span {
+  color: #2a2a2a;
+}
+
+/* line 1584, ../sass/custom.sass */
+.fpPagination {
+  background: url("../images/ctransparent.png") repeat;
+  padding: 7px 10px 4px;
+  margin-top: 5px;
+  text-align: center;
+}
+/* line 1589, ../sass/custom.sass */
+.fpPagination ul {
+  margin: 0;
+  display: inline-block;
+}
+/* line 1592, ../sass/custom.sass */
+.fpPagination li {
+  float: left;
+  margin: 0px 2px;
+}
+/* line 1595, ../sass/custom.sass */
+.fpPagination li a {
+  color: white;
+  font-size: 12px;
+  letter-spacing: 1px;
+  padding: 2px 6px;
+}
+/* line 1600, ../sass/custom.sass */
+.fpPagination li a:hover {
+  background: url("../images/transparent.png") repeat;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+/* line 1605, ../sass/custom.sass */
+a.pagintnActive {
+  background: url("../images/transparent.png") repeat;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+/* line 1611, ../sass/custom.sass */
+.fpPagination li:first-child a, .fpPagination li:last-child a {
+  background: none;
+}
+
+/*-------------------------Yuva Bharat Story---------------------------- */
+/* line 1616, ../sass/custom.sass */
+#yuvaBharatStoryBody {
+  background: url("../images/yuvaBharatBodyBg.jpg") no-repeat center top;
+}
+
+/* line 1619, ../sass/custom.sass */
+.yuvaBharatBanner {
+  background: url("../images/yuvaBharatStoryBanner.png") no-repeat;
+  padding: 40px 58px;
+}
+
+/* line 1623, ../sass/custom.sass */
+.yuvaBharatBanContent {
+  font-size: 15px;
+  color: #535353;
+  text-transform: uppercase;
+  float: right;
+  width: 395px;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
+
+/* line 1632, ../sass/custom.sass */
+.yuvaBharatBanner span {
+  display: block;
+}
+/* line 1634, ../sass/custom.sass */
+.yuvaBharatBanner span.exploreSpirit {
+  color: #ff6600;
+}
+
+/* line 1637, ../sass/custom.sass */
+.yuvaBharatPostImage {
+  background: url("../images/yuvaBharatTopImg.png") no-repeat;
+  height: 290px;
+  margin-bottom: 8px;
+}
+
+/* line 1642, ../sass/custom.sass */
+.yuvaBharatPostContent {
+  background: white;
+  padding: 26px 20px 35px;
+  /* width: 579px; */
+}
+/* line 1646, ../sass/custom.sass */
+.yuvaBharatPostContent p {
+  color: #525252;
+  line-height: 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+
+/* line 1652, ../sass/custom.sass */
+.ybPublicShare {
+  float: right;
+}
+/* line 1654, ../sass/custom.sass */
+.ybPublicShare li {
+  float: left;
+  background: url("../images/ybShareSeperator.png") no-repeat right 5px;
+  padding: 0 10px;
+}
+/* line 1658, ../sass/custom.sass */
+.ybPublicShare li:last-child {
+  background: none;
+}
+
+/* line 1661, ../sass/custom.sass */
+.yuvaBharatGreyBg li:last-child {
+  background: none;
+}
+
+/* line 1664, ../sass/custom.sass */
+.ybPublicShare li a {
+  color: #838383;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+/* line 1668, ../sass/custom.sass */
+.ybPublicShare li a:hover {
+  color: black;
+}
+
+/* line 1671, ../sass/custom.sass */
+.yuvaBharatGreyBg {
+  background: url("../images/transparent.png") repeat;
+  text-align: center;
+  margin-bottom: 5px;
+}
+/* line 1675, ../sass/custom.sass */
+.yuvaBharatGreyBg ul {
+  display: inline-block;
+  margin: 0;
+}
+/* line 1678, ../sass/custom.sass */
+.yuvaBharatGreyBg li {
+  float: left;
+  background: url("../images/ybComemntsSeperator.png") no-repeat right 8px;
+  padding: 3px 10px 0;
+}
+/* line 1682, ../sass/custom.sass */
+.yuvaBharatGreyBg li a {
+  color: white;
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: capitalize;
+}
+/* line 1687, ../sass/custom.sass */
+.yuvaBharatGreyBg li a:hover {
+  text-decoration: underline;
+}
+
+/* line 1690, ../sass/custom.sass */
+.yuvaBharatComments {
+  background: url("../images/ybBlueTransparent.png") repeat;
+  padding: 8px 20px;
+  margin-top: 2px;
+}
+
+/* line 1695, ../sass/custom.sass */
+.ybCommentsLeft {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 1699, ../sass/custom.sass */
+.ybCommentsRight {
+  float: left;
+  width: 500px;
+  text-align: justify;
+}
+/* line 1703, ../sass/custom.sass */
+.ybCommentsRight span {
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #232323;
+  line-height: 17px;
+}
+
+/* line 1710, ../sass/custom.sass */
+.ybAuthor {
+  text-transform: uppercase;
+}
+
+/* line 1713, ../sass/custom.sass */
+.ybCommentsRight input {
+  background: white;
+  width: 500px;
+  height: 12px;
+  border: 1px solid #8eb5bc;
+  font-size: 10px;
+  color: #767676;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  margin-top: 8px;
+}
+
+/* line 1725, ../sass/custom.sass */
+.yuvaBharatShareStory {
+  margin-top: 30px;
+}
+/* line 1727, ../sass/custom.sass */
+.yuvaBharatShareStory h3 {
+  font-size: 23px;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 2px;
+  background: url("../images/icon_sprite.png") no-repeat -55px -410px;
+}
+/* line 1733, ../sass/custom.sass */
+.yuvaBharatShareStory textarea {
+  width: 606px;
+  height: 80px;
+  resize: none;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  font-size: 11px;
+  color: #767676;
+  margin-bottom: 0;
+}
+
+/* line 1744, ../sass/custom.sass */
+.commentBtn {
+  float: right;
+  background-image: linear-gradient(#84b3bb, #45747c);
+  box-shadow: 4px 6px 5px #232421;
+  color: white;
+  font-size: 10px;
+  text-transform: capitalize;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  padding: 0 20px;
+  background-color: #45747c;
+  text-shadow: none;
+  border: 1px solid #45747c;
+  height: 20px;
+  margin: 6px 15px;
+}
+/* line 1760, ../sass/custom.sass */
+.commentBtn:hover {
+  background: #45747c;
+  color: white;
+}
+
+/* line 1764, ../sass/custom.sass */
+.yuvaBharatPostLeft img {
+  float: left;
+  margin-right: 10px;
+}
+
+/* line 1768, ../sass/custom.sass */
+.yuvaBharatMedia {
+  float: left;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 35px;
+}
+/* line 1774, ../sass/custom.sass */
+.yuvaBharatMedia span {
+  display: block;
+  font-size: 12px;
+}
+
+/* line 1778, ../sass/custom.sass */
+.yuvaBharatPostDate {
+  margin: 13px 0 16px;
+}
+/* line 1780, ../sass/custom.sass */
+.yuvaBharatPostDate .accMedia {
+  float: left;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+/* line 1784, ../sass/custom.sass */
+.yuvaBharatPostDate span {
+  float: right;
+  background: url("../images/rrPostBg2.png") repeat;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  padding: 1px 28px;
+  font-size: 11px;
+  letter-spacing: 1px;
+  margin-right: 40px;
+}
+
+/* line 1795, ../sass/custom.sass */
+.issueTitle {
+  margin-bottom: 15px;
+  background: url("../images/transparent.png") repeat;
+  padding: 10px 30px;
+}
+/* line 1799, ../sass/custom.sass */
+.issueTitle h4 {
+  font-size: 18px;
+  color: #f97319;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 2px black;
+  text-transform: capitalize;
+}
+
+/* line 1806, ../sass/custom.sass */
+.cCommentsRight {
+  float: left;
+  text-align: justify;
+  width: 400px;
+}
+/* line 1810, ../sass/custom.sass */
+.cCommentsRight span {
+  color: #232323;
+  display: block;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 17px;
+}
+
+/* line 1817, ../sass/custom.sass */
+.corruptionRightUl {
+  margin: 0;
+}
+/* line 1819, ../sass/custom.sass */
+.corruptionRightUl li {
+  height: 252px;
+  margin-bottom: 45px;
+}
+/* line 1822, ../sass/custom.sass */
+.corruptionRightUl .joinusbtn {
+  left: 48px;
+  bottom: -1px;
+}
+
+/* line 1826, ../sass/custom.sass */
+.corruptionFaqs {
+  margin-bottom: 56px;
+}
+/* line 1828, ../sass/custom.sass */
+.corruptionFaqs .cQue {
+  background: url("../images/transparent.png") repeat;
+  padding: 8px 10px;
+  text-align: center;
+  position: relative;
+  border-radius: 2px;
+  margin-top: 7px;
+}
+/* line 1835, ../sass/custom.sass */
+.corruptionFaqs .cTitle {
+  color: #ff7800;
+  font-size: 17px;
+}
+/* line 1838, ../sass/custom.sass */
+.corruptionFaqs .cPlus {
+  position: absolute;
+  right: 16px;
+  top: 7px;
+}
+/* line 1842, ../sass/custom.sass */
+.corruptionFaqs .cPlus a {
+  cursor: pointer;
+}
+/* line 1844, ../sass/custom.sass */
+.corruptionFaqs .cPlus a i {
+  background-position: -102px -100px;
+  height: 20px;
+  width: 20px;
+}
+/* line 1848, ../sass/custom.sass */
+.corruptionFaqs .cAns {
+  background: url("../images/frontPageLeftBg.png") repeat;
+  padding: 33px 38px;
+  margin-top: 7px;
+  display: none;
+}
+/* line 1853, ../sass/custom.sass */
+.corruptionFaqs .cAns p {
+  color: #2c2c2c;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+/* line 1857, ../sass/custom.sass */
+.corruptionFaqs .cAccordianHide a i {
+  background-position: -102px -79px;
+}
